@@ -1,0 +1,20 @@
+
+{% extends 'backweb/loginbase.html' %}
+
+  {% block title%}
+    异清轩博客管理系统
+  {% endblock %}
+
+  {% block content %}
+      {{ err }}
+
+      <form action="index.html" method="post" autocomplete="off" class="form-signin">
+        {% csrf_token %}
+        <h2 class="form-signin-heading">管理员登录</h2>
+        <label for="userName" class="sr-only">用户名</label>
+        <input type="text" id="userName" name="username" class="form-control" placeholder="请输入用户名" required autofocus autocomplete="off" maxlength="10">
+        <label for="userPwd" class="sr-only">密码</label>
+        <input type="password" id="userPwd" name="userpwd" class="form-control" placeholder="请输入密码" required autocomplete="off" maxlength="18">
+        <a href="main.html"><button class="btn btn-lg btn-primary btn-block" type="submit" id="signinSubmit">登录</button></a>
+      </form>
+  {% endblock%}

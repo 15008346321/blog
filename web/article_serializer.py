@@ -1,0 +1,47 @@
+
+from rest_framework import serializers
+
+from backweb.models import Article
+
+
+class ArtcileSerializer(serializers.ModelSerializer):
+    desc = serializers.CharField(min_length=10,
+                                 max_length=100,
+                                 error_messages={'required':'描述必填',
+                                                 'max_length':'描述不超过100字符',
+                                                 'min_length':'描述不少于10字符'})
+
+    title = serializers.CharField(min_length=2,
+                                  error_messages={
+                                      'required':'内容必填',
+                                      'min_length':'题目不少于2字符',
+                                  })
+
+    content = serializers.CharField(min_length=10,
+                                    error_messages={
+                                        'required':'内容必填',
+                                        'min_length':'内容不少于10字符',
+                                    })
+
+    class Meta:
+        # 序列化的模型
+        model = Article
+        # 序列化的字段
+        fields = ['title', 'desc', 'content', 'id', 'atype']
+
+    def to_representation(self, instance):
+        # 序列化是会默认调用该方法,返回结果为当前instance对象的序列化结果
+
+
+
+        # return {'id':instance.id,
+        #         'title':instance.title,
+        #         'atype':instance.atype.t_name,
+        #         'desc':instance.desc,
+        #         }
+        #
+        data = super().to_representation(instance)
+
+        if instance.atype:
+            data['atype'] = instance.atype.t_name
+        return data

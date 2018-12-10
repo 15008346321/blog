@@ -1,0 +1,1526 @@
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 124, in article
+    return render(request, 'backweb/article.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Not Found: /favicon.ico
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 124, in article
+    return render(request, 'backweb/article.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Not Found: /favicon.ico
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 124, in article
+    return render(request, 'backweb/article.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 124, in article
+    return render(request, 'backweb/article/', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: backweb/article/
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 124, in article
+    return render(request, 'backweb/article.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 124, in article
+    return render(request, 'backweb/article.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 124, in article
+    return render(request, 'backweb/article.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 124, in article
+    return render(request, 'backweb/article.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, 'backweb/article.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article' not found. 'article' is not a valid view function or pattern name.
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, '/backweb/article/', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/article/
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, '/backweb/article.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/article.html
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, '/backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/article.html
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, '/backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/article.html
+Not Found: /favicon.ico
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, '/backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/article.html
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, '/backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/article.html
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, '/backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/article.html
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, 'backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, 'backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, 'backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, 'backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 120, in article
+    return render(request, 'backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit_art' not found. 'edit_art' is not a valid view function or pattern name.
+Not Found: /media/111
+Not Found: /media/222
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /media/111
+Not Found: /media/222
+Not Found: /media/333
+Not Found: /media/444
+Not Found: /media/555
+Not Found: /media/333
+Not Found: /media/444
+Not Found: /media/333
+Not Found: /media/444
+Not Found: /media/111
+Not Found: /media/222
+Not Found: /media/333
+Not Found: /media/444
+Not Found: /media/555
+Internal Server Error: /backweb/del_art_id/555/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 153, in del_art_id
+    return HttpResponseRedirect(reverse('user:art_list'))
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'art_list' not found. 'art_list' is not a valid view function or pattern name.
+Not Found: /media/333
+Not Found: /media/444
+Not Found: /media/111
+Not Found: /media/222
+Internal Server Error: /backweb/edit_art/111/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 160, in edit_art
+    return render(request, 'add_article.html', {'article': article})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: add_article.html
+Not Found: /media/111
+Not Found: /media/222
+Not Found: /media/333
+Not Found: /media/444
+Not Found: /media/111
+Not Found: /media/222
+Not Found: /media/333
+Not Found: /media/444
+Not Found: /media/111
+Not Found: /media/222
+Not Found: /media/333
+Not Found: /media/444
+Internal Server Error: /backweb/del_art_id/444/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 153, in del_art_id
+    return HttpResponseRedirect(reverse('user:art_list'))
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'art_list' not found. 'art_list' is not a valid view function or pattern name.
+Not Found: /media/111
+Not Found: /media/222
+Not Found: /media/333
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /media/111
+Not Found: /media/222
+Not Found: /media/333
+Not Found: /media/111
+Not Found: /media/222
+Not Found: /media/111
+Not Found: /media/222
+Internal Server Error: /backweb/edit_art/111/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 159, in edit_art
+    return render(request, 'add_article.html', {'article': article})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: add_article.html
+Internal Server Error: /backweb/edit_art/222/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 159, in edit_art
+    return render(request, 'add_article.html', {'article': article})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: add_article.html
+Internal Server Error: /backweb/add_article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 127, in add_article
+    return render(request, 'add_article.html')
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: add_article.html
+Internal Server Error: /backweb/add_article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 127, in add_article
+    return render(request, '/backweb/add_article.html')
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/add_article.html
+Internal Server Error: /backweb/article/static/backweb/images/baoman/baoman_01.gif
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 121, in article
+    return render(request, '/backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/article.html
+Internal Server Error: /backweb/article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 121, in article
+    return render(request, '/backweb/article.html', {'page': page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/article.html
+Not Found: /media/111
+Not Found: /Article/add
+Not Found: /Article/add
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /Article/add
+Not Found: /favicon.ico
+Not Found: /Article/add
+Not Found: /favicon.ico
+Not Found: /Article/add
+Not Found: /favicon.ico
+Not Found: /Article/add
+Not Found: /Article/add
+Not Found: /Article/add
+Not Found: /Article/add
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /backweb/idnex
+Internal Server Error: /backweb/add_article/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 507, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 127, in add_article
+    return render(request, 'backweb/add_article.html')
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 154, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 151, in get_parent
+    return self.find_template(parent, context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader_tags.py", line 131, in find_template
+    template_name, skip=history,
+  File "D:\python\env\blog7env\lib\site-packages\django\template\engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 509, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 571, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 20: 'static'. Did you forget to register or load this tag?
+Not Found: /favicon.ico
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342.jpeg
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342.jpeg
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342.jpeg
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342.jpeg
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342.jpeg
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_N891Omy.jpeg
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_aSFJl8L.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_aSFJl8L.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_aSFJl8L.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_N891Omy.jpeg
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_N891Omy.jpeg
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_N891Omy.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_aSFJl8L.jpeg
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_aSFJl8L.jpeg
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_KbaxaYB.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_KbaxaYB.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_KbaxaYB.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_KbaxaYB.jpeg
+Not Found: /favicon.ico
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_KbaxaYB.jpeg
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_KbaxaYB.jpeg
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_KbaxaYB.jpeg
+Not Found: /
+Not Found: /media/1
+Not Found: /media/2
+Not Found: /media/1
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Internal Server Error: /backweb/notice/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 103, in notice
+    return render(request, '/backweb/notice.html')
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/notice.html
+Not Found: /favicon.ico
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Internal Server Error: /backweb/notice/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 103, in notice
+    return render(request, '/backweb/notice.html')
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /backweb/notice.html
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /media/2
+Not Found: /
+Not Found: /media/2
+Not Found: /media/article/65840aeb6b223c6dfa23129ceb763342_jSCVdIk.jpeg
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/3
+Not Found: /media/4
+Not Found: /media/5
+Not Found: /media/6
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /
+Not Found: /api/article/art/
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /api/
+Not Found: /api/index/
+Not Found: /
+Not Found: /
+Not Found: /api/article/art
+Not Found: /api/web/index/
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /backweb/login/index.html
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\backweb\views.py", line 32, in login
+    return render(request, 'login.html', {'err':err})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /api/web/index
+Not Found: /api/web/index
+Not Found: /api/web/index
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /api/
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Internal Server Error: /web/index/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\web\views.py", line 74, in index
+    return render(request, 'web/index.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Not Found: /favicon.ico
+Internal Server Error: /web/index/
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'art'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python\wordspace\7.django\blog\web\views.py", line 74, in index
+    return render(request, 'web/index.html', {'page':page})
+  File "D:\python\env\blog7env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\python\env\blog7env\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "D:\python\env\blog7env\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\python\env\blog7env\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'art' is not a registered namespace
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /favicon.ico
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /favicon.ico
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /favicon.ico
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /media/2
+Not Found: /
+Not Found: /media/2
